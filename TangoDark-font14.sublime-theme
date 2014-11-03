@@ -1089,14 +1089,14 @@
         {
             "keyframes":
             [
-                "TangoDark/assests/spinner7.png",
-                "TangoDark/assests/spinner6.png",
-                "TangoDark/assests/spinner5.png",
-                "TangoDark/assests/spinner4.png",
-                "TangoDark/assests/spinner3.png",
-                "TangoDark/assests/spinner2.png",
-                "TangoDark/assests/spinner1.png",
-                "TangoDark/assests/spinner.png",
+                "TangoDark/assets/spinner7.png",
+                "TangoDark/assets/spinner6.png",
+                "TangoDark/assets/spinner5.png",
+                "TangoDark/assets/spinner4.png",
+                "TangoDark/assets/spinner3.png",
+                "TangoDark/assets/spinner2.png",
+                "TangoDark/assets/spinner1.png",
+                "TangoDark/assets/spinner.png",
             ],
             "loop": true,
             "frame_time": 0.075,
