@@ -1,5 +1,5 @@
 # [TangoDark](https://github.com/kodx/TangoDark)
-### A dark interface and syntax theme for [Sublime Text 3](http://www.sublimetext.com/3) and [Emacs](http://www.gnu.org/software/emacs)
+### A dark interface and syntax theme for [Sublime Text 3](http://www.sublimetext.com/3), [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) and [Emacs](http://www.gnu.org/software/emacs)
 
 ## About
 
@@ -54,6 +54,12 @@ Add to your Emacs config:
 ```
 
 ![TangoDark Emacs screenshot](doc/tangodark_emacs_screenshot.png)
+
+## Activating the theme for urxvt-unicode
+
+Add to your ~/.Xresources contents of `urxvt/Xresources`.
+
+![TangoDark rxvt-unicode screenshot](doc/tangodark_urxvt_screenshot.png)
 
 ## License
 
