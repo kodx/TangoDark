@@ -8,7 +8,25 @@ TangoDark is a dark theme and a syntax color scheme based on [Tango Style Theme 
 Filetype icons  from [Predawn Theme](https://github.com/jamiewilson/predawn).
 Folder icons from [Soda Theme by Ian Hill](http://buymeasoda.com/).
 
-## Activating the Theme for Sublime Text 3
+## How to install the Tango Dark theme in Sublime Text 3
+
+From sublime text open your Packages folder:
+__Preferences -> Browse Packages__
+
+![Sublime Text packages screenshot](doc/sublime_text_packages_screenshot.png)
+
+### Manual mode
+
+Create directory `TangoDark` and put contents of this repo inside.
+
+### Git mode
+
+Run inside `Packages` dir
+```sh
+git clone https://github.com/kodx/TangoDark.git
+```
+
+### Activating the Theme for Sublime Text 3
 
 Open your user settings file `preferences.sublime-settings` and add or replace your current theme settings with the code below:
 
