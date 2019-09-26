@@ -1,5 +1,5 @@
 # [TangoDark](https://github.com/kodx/TangoDark)
-### A dark interface and syntax theme for [Sublime Text 3](http://www.sublimetext.com/3), [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) and [Emacs](http://www.gnu.org/software/emacs)
+### A dark interface and syntax theme for [Sublime Text 3](http://www.sublimetext.com/3), [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html), [Konsole](https://konsole.kde.org/) and [Emacs](http://www.gnu.org/software/emacs)
 
 ## About
 
@@ -26,7 +26,7 @@ Run inside `Packages` dir
 git clone https://github.com/kodx/TangoDark.git
 ```
 
-### Activating the Theme for Sublime Text 3
+### Activating the theme for Sublime Text 3
 
 Open your user settings file `preferences.sublime-settings` and add or replace your current theme settings with the code below:
 
@@ -48,7 +48,7 @@ For bigger UI font(14pt) use:
 
 _Note: File icons are supported only for **Beta BUILDS 3065+**._
 
-## TangoDark PlainTasks color scheme
+## Sublime Text 3 - PlainTasks
 
 TangoDark theme supplied with [PlainTasks](https://github.com/aziz/PlainTasks) color scheme:
 
@@ -62,7 +62,7 @@ To activate open `PlainTasks.sublime-settings` and add or replace "color_scheme"
 }
 ```
 
-## Activating the theme for Emacs
+## Emacs
 
 Add to your Emacs config:
 
@@ -73,11 +73,15 @@ Add to your Emacs config:
 
 ![TangoDark Emacs screenshot](doc/tangodark_emacs_screenshot.png)
 
-## Activating the theme for urxvt-unicode
+## urxvt-unicode
 
-Add to your ~/.Xresources contents of `urxvt/Xresources`.
+Add to your `~/.Xresources` contents of `urxvt/Xresources`.
 
 ![TangoDark rxvt-unicode screenshot](doc/tangodark_urxvt_screenshot.png)
+
+## konsole
+
+Copy file `TangoDark.colorscheme` from `konsole` to `~/.local/share/konsole` directory and choose theme `TangoDark` in settings.
 
 ## License
 
